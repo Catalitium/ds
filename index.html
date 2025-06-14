@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Digital Shift Jobs</title>
+  <script src="script.js" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-50 text-gray-900 antialiased font-sans">
+  <main class="max-w-4xl mx-auto px-6 py-10 space-y-10">
+
+    <!-- Header -->
+    <header class="space-y-2">
+      <h1 class="text-4xl font-bold tracking-tight">💼 DigitalShift - Job Explorer</h1>
+      <p class="text-gray-500 text-base">Explore tech jobs and salary insights across Europe.</p>
+    </header>
+
+    <!-- Inputs -->
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-6 items-end">
+      <div>
+        <label for="countrySelect" class="block text-sm font-medium text-gray-700 mb-1">Country</label>
+        <select id="countrySelect" class="w-full px-3 py-2 border border-gray-300 rounded-md bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+          <!-- options injected -->
+        </select>
+      </div>
+
+      <div>
+        <label for="jobInput" class="block text-sm font-medium text-gray-700 mb-1">Job Title</label>
+        <input
+          type="text"
+          id="jobInput"
+          placeholder="e.g. Software Engineer"
+          class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+        />
+      </div>
+    </section>
+
+    <!-- Salary Info -->
+    <section class="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+      <h2 class="text-xl font-semibold mb-4 text-gray-800">💰 Salary Overview</h2>
+      <div id="salaryOutput" class="space-y-2 text-base text-gray-700">
+        <!-- salary stats -->
+      </div>
+    </section>
+
+    <!-- Job Results -->
+    <section class="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+      <h2 class="text-xl font-semibold mb-4 text-gray-800">🧾 Matching Jobs</h2>
+      <div id="jobResults" class="grid gap-4">
+        <!-- cards injected -->
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>
