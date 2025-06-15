@@ -1,41 +1,34 @@
-GeoSalaryId	Location	MedianSalary	MinSalary	CurrencyTicker	City	Country	Region
-1	Latin America (Remote)	26400	12000	USD	NULL	NULL	South America
-2	United Kingdom (Remote)	37430	31461	GBP	NULL	United Kingdom	Europe
-3	Germany (Remote)	81000	60000	EUR	NULL	Germany	Europe
-4	European Union (Remote)	37900	20000	EUR	NULL	NULL	Europe
-5	Spain (Remote)	36223	2100	USD	NULL	NULL	NULL
-6	EMEA (Remote)	60407	60407	USD	NULL	NULL	Europe
-7	Colombia (Remote)	32000	21000	USD	NULL	Colombia	South America
-8	Madrid Community of Madrid Spain (Hybrid)	35000	30000	EUR	Madrid	Spain	Europe
-9	Poland (Remote)	21000	13500	EUR	NULL	Poland	Europe
-10	Mexico (Remote)	28420	10000	USD	NULL	Mexico	North America
-11	Switzerland (Remote)	106800	82500	CHF	NULL	Switzerland	Europe
-12	Dublin County Dublin Ireland (On-site)	45000	35300	EUR	Dublin	Ireland	Europe
-13	Zurich Zurich Switzerland (On-site)	110100	85000	CHF	Zurich	Switzerland	Europe
-14	Barcelona Catalonia Spain (Hybrid)	36223	2048	EUR	Barcelona	Spain	Europe
-15	Dublin County Dublin Ireland (Hybrid)	45000	35300	EUR	Dublin	Ireland	Europe
-16	Barcelona Catalonia Spain (On-site)	36223	2048	EUR	Barcelona	Spain	Europe
-17	Paris	43849	2048	EUR	Paris	France	Europe
-18	Rome Latium Italy (Hybrid)	32579	2017	EUR	Rome	Italy	Europe
-19	Rome Latium Italy (On-site)	32579	2017	EUR	Rome	Italy	Europe
-20	France (Remote)	43849	2048	EUR	NULL	France	Europe
-21	London England United Kingdom (On-site)	55275	39000	USD	London	United Kingdom	Europe
-22	Paris (Hybrid)	51338	45000	EUR	NULL	NULL	NULL
-23	India (Remote)	45088	17673	INR	NULL	India	Asia
-24	Italy (Remote)	60000	34000	EUR	NULL	Italy	Europe
-25	Zurich (Hybrid)	142000	96000	CHF	NULL	NULL	NULL
-26	Warsaw (Hybrid)	119190	6540	PLN	Warsaw	Poland	Europe
-27	Milan (Hybrid)	40000	34317	EUR	Milan	Italy	Europe
-28	Portugal (Remote)	24000	1329	EUR	NULL	Portugal	Europe
-29	Hamburg (On-site)	58704	50000	EUR	Hamburg	Germany	Europe
-30	London (Hybrid)	31602	31602	GBP	NULL	NULL	NULL
-31	Switzerland (Remote)	126500	88300	CHF	NULL	Switzerland	Europe
-32	Dublin County Dublin Ireland (on-site)	65000	50000	EUR	Dublin	Ireland	Europe
-33	Barcelona Catalonia Spain (Hybrid)	35000	30000	EUR	Barcelona	Spain	Europe
-34	Dublin County Dublin Ireland (Hybrid)	65000	50000	EUR	Dublin	Ireland	Europe
-35	Barcelona Catalonia Spain (on-site)	35000	30000	EUR	Barcelona	Spain	Europe
-36	Paris France (On-site)	45000	35000	EUR	Paris	France	Europe
-37	Rome Latium Italy (Hybrid)	35000	30000	EUR	Rome	Italy	Europe
-38	Rome Latium Italy (on-site)	35000	30000	EUR	Rome	Italy	Europe
-39	France (Remote)	45000	35000	EUR	NULL	France	Europe
-40	London England United Kingdom (on-site)	70000	50000	GBP	London	United Kingdom	Europe
+GeoSalaryId	Location	MedianSalary	MinSalary	CurrencyTicker	City	Country	Region	RemoteType
+2	United Kingdom (Remote)	37430	31461	GBP	NULL	United Kingdom	Europe	Remote
+3	Germany (Remote)	81000	60000	EUR	NULL	Germany	Europe	Remote
+7	Colombia (Remote)	32000	21000	USD	NULL	Colombia	South America	Remote
+8	Madrid Community of Madrid Spain (Hybrid)	35000	30000	EUR	Madrid	Spain	Europe	Hybrid
+9	Poland (Remote)	21000	13500	EUR	NULL	Poland	Europe	Remote
+10	Mexico (Remote)	28420	10000	USD	NULL	Mexico	North America	Remote
+11	Switzerland (Remote)	106800	82500	CHF	NULL	Switzerland	Europe	Remote
+12	Dublin County Dublin Ireland (On-site)	45000	35300	EUR	Dublin	Ireland	Europe	Onsite
+13	Zurich Zurich Switzerland (On-site)	110100	85000	CHF	Zurich	Switzerland	Europe	Onsite
+14	Barcelona Catalonia Spain (Hybrid)	36223	2048	EUR	Barcelona	Spain	Europe	Hybrid
+15	Dublin County Dublin Ireland (Hybrid)	45000	35300	EUR	Dublin	Ireland	Europe	Hybrid
+16	Barcelona Catalonia Spain (On-site)	36223	2048	EUR	Barcelona	Spain	Europe	Onsite
+17	Paris	43849	2048	EUR	Paris	France	Europe	Onsite
+18	Rome Latium Italy (Hybrid)	32579	2017	EUR	Rome	Italy	Europe	Hybrid
+19	Rome Latium Italy (On-site)	32579	2017	EUR	Rome	Italy	Europe	Onsite
+20	France (Remote)	43849	2048	EUR	NULL	France	Europe	Remote
+21	London England United Kingdom (On-site)	55275	39000	USD	London	United Kingdom	Europe	Onsite
+23	India (Remote)	45088	17673	INR	NULL	India	Asia	Remote
+24	Italy (Remote)	60000	34000	EUR	NULL	Italy	Europe	Remote
+26	Warsaw (Hybrid)	119190	6540	PLN	Warsaw	Poland	Europe	Hybrid
+27	Milan (Hybrid)	40000	34317	EUR	Milan	Italy	Europe	Hybrid
+28	Portugal (Remote)	24000	1329	EUR	NULL	Portugal	Europe	Remote
+29	Hamburg (On-site)	58704	50000	EUR	Hamburg	Germany	Europe	Onsite
+31	Switzerland (Remote)	126500	88300	CHF	NULL	Switzerland	Europe	Remote
+32	Dublin County Dublin Ireland (on-site)	65000	50000	EUR	Dublin	Ireland	Europe	Onsite
+33	Barcelona Catalonia Spain (Hybrid)	35000	30000	EUR	Barcelona	Spain	Europe	Hybrid
+34	Dublin County Dublin Ireland (Hybrid)	65000	50000	EUR	Dublin	Ireland	Europe	Hybrid
+35	Barcelona Catalonia Spain (on-site)	35000	30000	EUR	Barcelona	Spain	Europe	Onsite
+36	Paris France (On-site)	45000	35000	EUR	Paris	France	Europe	Onsite
+37	Rome Latium Italy (Hybrid)	35000	30000	EUR	Rome	Italy	Europe	Hybrid
+38	Rome Latium Italy (on-site)	35000	30000	EUR	Rome	Italy	Europe	Onsite
+39	France (Remote)	45000	35000	EUR	NULL	France	Europe	Remote
+40	London England United Kingdom (on-site)	70000	50000	GBP	London	United Kingdom	Europe	Onsite
