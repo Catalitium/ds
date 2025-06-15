@@ -50,6 +50,16 @@ async function loadTSV(path) {
   }
 }
 
+function trackSearchEvent(query, country) {
+  if (window.gtag) {
+    gtag('event', 'search', {
+      event_category: 'JobExplorer',
+      event_label: country,
+      search_term: query
+    });
+  }
+}
+
 function populateCountries() {
   const select = document.getElementById('countrySelect');
   select.innerHTML = '<option value="">Select country</option>';
@@ -106,6 +116,7 @@ function updateUI() {
 
   // 🧠 Show Fun Facts if no job query
   if (jobQuery.length < 2) {
+    trackSearchEvent(jobQuery, country);
     renderFunFactsForCountry(normalizedCountry);
     return;
   }
@@ -202,3 +213,5 @@ function renderTopJobsChart(jobList) {
     </div>
   `;
 }
+
+
